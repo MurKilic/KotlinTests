@@ -1,6 +1,8 @@
-com.example.loginapp.test.app-jetified-core-1.5.0-0 /Users/murat/.gradle/caches/8.12/transforms/99c2d3513b21702cde1c494cf0a510a3/transformed/jetified-core-1.5.0/res
-com.example.loginapp.test.app-jetified-annotation-experimental-1.3.0-1 /Users/murat/.gradle/caches/8.12/transforms/c6bc940601790f740675796a49906e89/transformed/jetified-annotation-experimental-1.3.0/res
-com.example.loginapp.test.app-androidTest-2 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/generated/res/resValues/androidTest/debug
-com.example.loginapp.test.app-mergeDebugAndroidTestResources-3 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.loginapp.test.app-mergeDebugAndroidTestResources-4 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.loginapp.test.app-debugAndroidTest-5 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.example.loginapp.test.app-jetified-tracing-1.1.0-0 /Users/murat/.gradle/caches/8.12/transforms/0040cd54ecd32b766f6fe2c3c3fa5572/transformed/jetified-tracing-1.1.0/res
+com.example.loginapp.test.app-uiautomator-2.3.0-1 /Users/murat/.gradle/caches/8.12/transforms/1be953abc11c6932656d63eb95f300f7/transformed/uiautomator-2.3.0/res
+com.example.loginapp.test.app-jetified-core-1.5.0-2 /Users/murat/.gradle/caches/8.12/transforms/99c2d3513b21702cde1c494cf0a510a3/transformed/jetified-core-1.5.0/res
+com.example.loginapp.test.app-jetified-annotation-experimental-1.3.0-3 /Users/murat/.gradle/caches/8.12/transforms/c6bc940601790f740675796a49906e89/transformed/jetified-annotation-experimental-1.3.0/res
+com.example.loginapp.test.app-androidTest-4 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/generated/res/resValues/androidTest/debug
+com.example.loginapp.test.app-mergeDebugAndroidTestResources-5 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.loginapp.test.app-mergeDebugAndroidTestResources-6 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.loginapp.test.app-debugAndroidTest-7 /Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

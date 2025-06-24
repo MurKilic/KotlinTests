@@ -23,14 +23,16 @@ class LoginTestDataDriven_MultipleTests(
 
     companion object {
         @JvmStatic
-        @Parameterized.Parameters(name = "Benutzer: {0}, Passwort: {1}")
+        @Parameterized.Parameters(name = "Benutzer: {0}, Passwort: {1}, Result: {2}")
         fun data(): Collection<Array<String>> {
             return listOf(
                 arrayOf("Koepek", "Koepek", "Login fehlgeschlagen"),
-                arrayOf(" ", "Koepek", "Login fehlgeschlagen")
+                arrayOf(" ", "Koepek", "Login fehlgeschlagen"),
+                arrayOf("admin", "admin", "Login erfolgreich")
             )
         }
     }
+
     /** Data driven - every entry is 1 Test*/
     @Test
     fun testInvalidErrorMessage1() {

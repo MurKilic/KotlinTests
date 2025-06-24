@@ -27,7 +27,6 @@ class LoginTestDataDriven_OneTest :  Setup() {
             Triple("Koepek", "Koepek", "Login fehlgeschlagen"),
             Triple("", "", "Login fehlgeschlagen"),
             Triple("falsch", "1234", "Login fehlgeschlagen")
-
         )
 
         testData.forEach { (username, password, expectedMessage) ->

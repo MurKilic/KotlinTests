@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginapp-mergeDebugResources-29:/values-mk/values-mk.xml",
+            "outputFile": "com.example.loginapp-mergeDebugResources-31:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/murat/.gradle/caches/8.12/transforms/3cfe07814615f7cf4dee56230a8b76f2/transformed/material-1.11.0/res/values-mk/values-mk.xml",
