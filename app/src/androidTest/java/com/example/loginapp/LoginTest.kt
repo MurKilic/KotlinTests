@@ -6,9 +6,11 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.example.tests.Smoke
 import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
+import org.junit.experimental.categories.Category
 import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
@@ -27,6 +29,7 @@ class LoginTest {
     }
 
     @Test
+    @Category(Smoke::class)
     fun TestInvalidErrorMessage(){
         onView(withId(R.id.editUsername)).perform(typeText("Koepek"), closeSoftKeyboard())
         onView(withId(R.id.editPassword)).perform(typeText("Koepek"), closeSoftKeyboard())
@@ -36,6 +39,7 @@ class LoginTest {
     }
 
     @Test
+    @Category(Smoke::class)
     fun loginNavigatesToMainMenu() {
         onView(withId(R.id.editUsername)).perform(typeText("admin"), closeSoftKeyboard())
         onView(withId(R.id.editPassword)).perform(typeText("admin"), closeSoftKeyboard())
@@ -45,6 +49,7 @@ class LoginTest {
     }
 
     @Test
+
     fun screenCheckElements(){
         onView(withId(R.id.editUsername)).check(matches(withHint("Benutzername")))
         onView(withId(R.id.editPassword)).check(matches(withHint("Passwort")))

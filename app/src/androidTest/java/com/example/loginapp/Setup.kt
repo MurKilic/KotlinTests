@@ -1,6 +1,8 @@
 package com.example.loginapp
 
 import android.util.Log
+import android.widget.Toast
+import androidx.test.platform.app.InstrumentationRegistry
 import org.junit.Before
 import org.junit.After
 
@@ -11,7 +13,9 @@ open class Setup {
     @Before
     fun setup() {
         Log.d(TAG, "🔧 Setup läuft")
-        // Initialisierung, z. B. Mocks, Testdaten, etc.
+
+
+
     }
 
     @After

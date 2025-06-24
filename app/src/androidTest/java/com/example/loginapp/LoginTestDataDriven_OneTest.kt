@@ -5,8 +5,10 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.example.tests.Smoke
 import org.junit.Rule
 import org.junit.Test
+import org.junit.experimental.categories.Category
 import org.junit.runner.RunWith
 import kotlin.collections.forEach
 import kotlin.jvm.java
@@ -19,6 +21,7 @@ class LoginTestDataDriven_OneTest :  Setup() {
 
     /** Data driven - 1 Test runs multiple variations*/
     @Test
+    @Category(Smoke::class)
     fun testInvalidLogins_DataDriven() {
         val testData = listOf(
             Triple("Koepek", "Koepek", "Login fehlgeschlagen"),
