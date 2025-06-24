@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginapp.test.app-mergeDebugAndroidTestResources-3:/values-v18/values-v18.xml",
+            "outputFile": "com.example.loginapp.test.app-mergeDebugAndroidTestResources-5:/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "/Users/murat/.gradle/caches/8.12/transforms/99c2d3513b21702cde1c494cf0a510a3/transformed/jetified-core-1.5.0/res/values-v18/values.xml",

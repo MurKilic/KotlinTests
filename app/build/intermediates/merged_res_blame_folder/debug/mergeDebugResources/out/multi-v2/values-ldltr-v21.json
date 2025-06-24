@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginapp-mergeDebugResources-29:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.loginapp-mergeDebugResources-31:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "/Users/murat/.gradle/caches/8.12/transforms/c36faccdc825f19033cf394173e91eba/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",

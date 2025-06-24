@@ -1,4 +1,4 @@
-#Tue Jun 24 13:15:49 CEST 2025
+#Tue Jun 24 15:40:36 CEST 2025
 base.0=/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
 base.1=/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
 base.2=/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/1/classes.dex
