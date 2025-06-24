@@ -4,10 +4,13 @@ package com.example.loginapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.loginapp.R;
@@ -17,24 +20,46 @@ import java.lang.String;
 
 public final class ActivityMainMenuBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final ConstraintLayout mainMenuLayout;
+  public final EditText editTextBlock;
+
+  @NonNull
+  public final LinearLayout mainMenuLayout;
 
   @NonNull
   public final TextView mainMenuTitle;
 
-  private ActivityMainMenuBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout mainMenuLayout, @NonNull TextView mainMenuTitle) {
+  @NonNull
+  public final RadioButton radioAktiv;
+
+  @NonNull
+  public final RadioButton radioDeaktiv;
+
+  @NonNull
+  public final RadioGroup radioGroup;
+
+  @NonNull
+  public final RadioButton radioNurLesen;
+
+  private ActivityMainMenuBinding(@NonNull LinearLayout rootView, @NonNull EditText editTextBlock,
+      @NonNull LinearLayout mainMenuLayout, @NonNull TextView mainMenuTitle,
+      @NonNull RadioButton radioAktiv, @NonNull RadioButton radioDeaktiv,
+      @NonNull RadioGroup radioGroup, @NonNull RadioButton radioNurLesen) {
     this.rootView = rootView;
+    this.editTextBlock = editTextBlock;
     this.mainMenuLayout = mainMenuLayout;
     this.mainMenuTitle = mainMenuTitle;
+    this.radioAktiv = radioAktiv;
+    this.radioDeaktiv = radioDeaktiv;
+    this.radioGroup = radioGroup;
+    this.radioNurLesen = radioNurLesen;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -59,7 +84,13 @@ public final class ActivityMainMenuBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      ConstraintLayout mainMenuLayout = (ConstraintLayout) rootView;
+      id = R.id.editTextBlock;
+      EditText editTextBlock = ViewBindings.findChildViewById(rootView, id);
+      if (editTextBlock == null) {
+        break missingId;
+      }
+
+      LinearLayout mainMenuLayout = (LinearLayout) rootView;
 
       id = R.id.mainMenuTitle;
       TextView mainMenuTitle = ViewBindings.findChildViewById(rootView, id);
@@ -67,8 +98,32 @@ public final class ActivityMainMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainMenuBinding((ConstraintLayout) rootView, mainMenuLayout,
-          mainMenuTitle);
+      id = R.id.radioAktiv;
+      RadioButton radioAktiv = ViewBindings.findChildViewById(rootView, id);
+      if (radioAktiv == null) {
+        break missingId;
+      }
+
+      id = R.id.radioDeaktiv;
+      RadioButton radioDeaktiv = ViewBindings.findChildViewById(rootView, id);
+      if (radioDeaktiv == null) {
+        break missingId;
+      }
+
+      id = R.id.radioGroup;
+      RadioGroup radioGroup = ViewBindings.findChildViewById(rootView, id);
+      if (radioGroup == null) {
+        break missingId;
+      }
+
+      id = R.id.radioNurLesen;
+      RadioButton radioNurLesen = ViewBindings.findChildViewById(rootView, id);
+      if (radioNurLesen == null) {
+        break missingId;
+      }
+
+      return new ActivityMainMenuBinding((LinearLayout) rootView, editTextBlock, mainMenuLayout,
+          mainMenuTitle, radioAktiv, radioDeaktiv, radioGroup, radioNurLesen);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

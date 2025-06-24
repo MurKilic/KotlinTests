@@ -1,21 +1,21 @@
-INSTRUMENTATION_STATUS: class=com.example.loginapp.LoginTest
+INSTRUMENTATION_STATUS: class=com.example.loginapp.HauptmenuTest
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
 INSTRUMENTATION_STATUS: numtests=1
 INSTRUMENTATION_STATUS: stream=
-com.example.loginapp.LoginTest:
-INSTRUMENTATION_STATUS: test=screenCheckElements
+com.example.loginapp.HauptmenuTest:
+INSTRUMENTATION_STATUS: test=testNurLesenRadioButton
 INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: class=com.example.loginapp.LoginTest
+INSTRUMENTATION_STATUS: class=com.example.loginapp.HauptmenuTest
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
 INSTRUMENTATION_STATUS: numtests=1
 INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: test=screenCheckElements
+INSTRUMENTATION_STATUS: test=testNurLesenRadioButton
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_RESULT: stream=
 
-Time: 9.847
+Time: 12.557
 
 OK (1 test)
 

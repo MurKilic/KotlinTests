@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.example.loginapp.LoginTest" tests="1" failures="0" errors="0" skipped="0" time="11.014" timestamp="2025-06-24T10:27:37" hostname="localhost">
+<testsuite name="com.example.loginapp.HauptmenuTest" tests="1" failures="0" errors="0" skipped="0" time="14.809" timestamp="2025-06-24T11:16:21" hostname="localhost">
   <properties>
     <property name="device" value="Medium_Phone_API_36.0(AVD) - 16" />
     <property name="flavor" value="" />
     <property name="project" value=":app" />
   </properties>
-  <testcase name="screenCheckElements" classname="com.example.loginapp.LoginTest" time="9.751" />
+  <testcase name="testNurLesenRadioButton" classname="com.example.loginapp.HauptmenuTest" time="11.651" />
 </testsuite>

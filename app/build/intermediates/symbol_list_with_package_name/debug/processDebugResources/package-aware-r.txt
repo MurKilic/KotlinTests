@@ -3137,6 +3137,7 @@ id easeInOut
 id easeOut
 id edge
 id editPassword
+id editTextBlock
 id editUsername
 id edit_query
 id edit_text_id
@@ -3313,6 +3314,10 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id radioAktiv
+id radioDeaktiv
+id radioGroup
+id radioNurLesen
 id ratio
 id rectangles
 id report_drawn
