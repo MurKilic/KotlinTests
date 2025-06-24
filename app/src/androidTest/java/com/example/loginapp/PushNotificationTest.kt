@@ -45,6 +45,8 @@ class PushNotificationTest :  Setup() {
         val notification = device.findObject(By.text("Simulierter Push"))
         assertTrue(notification != null)
 
+        //Test
+
 
     }
 
