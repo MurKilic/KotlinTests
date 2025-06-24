@@ -12,7 +12,7 @@ import kotlin.collections.forEach
 import kotlin.jvm.java
 
 @RunWith(AndroidJUnit4::class)
-class LoginTestDataDriven_OneTest {
+class LoginTestDataDriven_OneTest :  Setup() {
 
     @get:Rule
     val activityRule = ActivityScenarioRule(MainActivity::class.java)
