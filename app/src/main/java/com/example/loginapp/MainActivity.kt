@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
         val notification = NotificationCompat.Builder(this, notificationChannelId)
             .setSmallIcon(R.drawable.ic_dialog_info)
             .setContentTitle("Simulierter Push")
-            .setContentText("Push it to the limit.\uD83C\uDFC3\u200D➡\uFE0F \uD83E\uDD3A \uD83C\uDFCB\uFE0F\u200D♂\uFE0F")
+            .setContentText("Push it to the limit. \uD83C\uDFC3\u200D➡\uFE0F \uD83E\uDD3A \uD83C\uDFCB\uFE0F\u200D♂\uFE0F")
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .build()
 
