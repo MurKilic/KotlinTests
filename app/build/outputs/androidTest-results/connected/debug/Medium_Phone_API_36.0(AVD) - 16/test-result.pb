@@ -1,10 +1,10 @@
 
-ˆ
-W
-	LoginTestcom.example.loginapploginNavigatesToMainMenu2ÅÔéÂ€¬Ø¶:ÓÔéÂ€å£ñ"ë
+ý
+Q
+	LoginTestcom.example.loginappscreenCheckElements2ŽûéÂ€Ü©ð:˜ûéÂÀ„Æz"æ
 
-logcatandroidÕ
-Ò/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/outputs/androidTest-results/connected/debug/Medium_Phone_API_36.0(AVD) - 16/logcat-com.example.loginapp.LoginTest-loginNavigatesToMainMenu.txt"¼
+logcatandroidÐ
+Í/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/outputs/androidTest-results/connected/debug/Medium_Phone_API_36.0(AVD) - 16/logcat-com.example.loginapp.LoginTest-screenCheckElements.txt"¼
 
 device-infoandroid¡
 ž/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/outputs/androidTest-results/connected/debug/Medium_Phone_API_36.0(AVD) - 16/device-info.pb"½

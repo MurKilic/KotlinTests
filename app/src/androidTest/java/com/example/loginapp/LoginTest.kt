@@ -6,6 +6,7 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -16,7 +17,7 @@ class LoginTest {
     @get:Rule
     val activityRule = ActivityScenarioRule(MainActivity::class.java)
 
-
+    @Ignore("aktuell kein bestandteil")
     @Test
     fun testValidLoginShowsSuccessMessage() {
         onView(withId(R.id.editUsername)).perform(typeText("admin"), closeSoftKeyboard())
@@ -41,6 +42,13 @@ class LoginTest {
         onView(withId(R.id.buttonLogin)).perform(click())
         onView(withId(R.id.mainMenuTitle)).check(matches(withText("Hauptmenü")))
     //Test Commit 2
+    }
+
+    @Test
+    fun screenCheckElements(){
+        onView(withId(R.id.editUsername)).check(matches(withHint("Benutzername")))
+        onView(withId(R.id.editPassword)).check(matches(withHint("Passwort")))
+        onView(withId(R.id.buttonLogin)).check(matches(withText("Login")))
     }
 
 

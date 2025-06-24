@@ -16,16 +16,16 @@
       <SelectionState runConfigName="testValidLoginShowsSuccessMessage()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="changeText_sameActivity()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="TestInvalidErrorMessage()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="LoginTest">
+      <SelectionState runConfigName="loginNavigatesToMainMenu()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="loginNavigatesToMainMenu()">
+      <SelectionState runConfigName="screenElementCheck()">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="screenCheckElements()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

@@ -1,4 +1,4 @@
-# 2025-06-24T09:05:27.364757Z:
+# 2025-06-24T10:27:37.588798Z:
 test_suite_meta_data {
   scheduled_test_case_count: 1
 }
@@ -7,14 +7,14 @@ test_result {
   test_case {
     test_class: "LoginTest"
     test_package: "com.example.loginapp"
-    test_method: "loginNavigatesToMainMenu"
+    test_method: "screenCheckElements"
     start_time {
-      seconds: 1750755909
-      nanos: 920000000
+      seconds: 1750760846
+      nanos: 504000000
     }
     end_time {
-      seconds: 1750755923
-      nanos: 506000000
+      seconds: 1750760856
+      nanos: 257000000
     }
   }
   test_status: PASSED
@@ -24,7 +24,7 @@ test_result {
       namespace: "android"
     }
     source_path {
-      path: "/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/outputs/androidTest-results/connected/debug/Medium_Phone_API_36.0(AVD) - 16/logcat-com.example.loginapp.LoginTest-loginNavigatesToMainMenu.txt"
+      path: "/Users/murat/AndroidStudioProjects/LoginAppKotlinEspresso/app/build/outputs/androidTest-results/connected/debug/Medium_Phone_API_36.0(AVD) - 16/logcat-com.example.loginapp.LoginTest-screenCheckElements.txt"
     }
   }
   output_artifact {
