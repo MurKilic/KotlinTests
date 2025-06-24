@@ -39,9 +39,10 @@ class LoginTest {
         onView(withId(R.id.editUsername)).perform(typeText("admin"), closeSoftKeyboard())
         onView(withId(R.id.editPassword)).perform(typeText("admin"), closeSoftKeyboard())
         onView(withId(R.id.buttonLogin)).perform(click())
-
         onView(withId(R.id.mainMenuTitle)).check(matches(withText("Hauptmenü")))
-
+    //Test Commit 2
     }
+
+
 
 }

@@ -1,0 +1,7 @@
+# .gitignore (für Android-Projekte)
+.gradle/
+app/build/
+.idea/
+*.iml
+.DS_Store
+*.apk
